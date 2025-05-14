@@ -7,11 +7,11 @@ author:
 date: "Abril de 2025"
 output:
   ioslides_presentation: default
+  slidy_presentation: default
   beamer_presentation:
     toc: true
     theme: Berkeley
     colortheme: whale
-  slidy_presentation: default
 institute:
 - Universidade Federal de Sergipe
 - "Programa de Pós-Graduação em Ciência da Computação"
