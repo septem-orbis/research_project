@@ -1,1 +1,42 @@
-\usepackage{array}
+% Codificação e idioma
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[portuguese]{babel}
+
+% Bibliografia ABNT com biblatex
+% Bibliografia simples
+\usepackage{natbib}
+\bibliographystyle{plain}
+% \usepackage[alf]{abntex2cite}
+% Bibliografia ABNT com biblatex
+% \usepackage[backend=bibtex,style=abnt,sorting=none]{biblatex}
+% \addbibresource{referencias.bib}
+% \usepackage[backend=bibtex,sorting=none]{biblatex}
+% \addbibresource{referencias.bib}
+
+% Layout e tabelas
+\usepackage{geometry}
+\usepackage{longtable, lscape, lmodern, array, ragged2e, makecell}
+
+% Links
+\usepackage[colorlinks=true, linkcolor=black, citecolor=black, urlcolor=black]{hyperref}
+\hypersetup{
+  pdftitle={Planejamento Estratégico 2025-2036},
+  pdfauthor={ASPLAN},
+  pdfsubject={Planejamento Estratégico},
+  pdfcreator={RMarkdown + LaTeX}
+}
+
+
+%PDF
+\usepackage{pdfpages}
+
+
+% Estética
+\usepackage{titlesec}
+\usepackage{tocloft}
+\usepackage{parskip}
+\usepackage{indentfirst}
+\setlength{\parindent}{1.25cm}
+\setlength{\parskip}{1em}
+\setcounter{tocdepth}{5}

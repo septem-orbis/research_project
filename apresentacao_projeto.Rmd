@@ -4,14 +4,16 @@ author:
 - Alberto Luciano de Souza Bastos
 - \newline
 - 'Orientador: Fabio Gomes Rocha'
-date: "Abril de 2025"
+date: "Junho de 2025"
 output:
-  ioslides_presentation: default
-  slidy_presentation: default
   beamer_presentation:
     toc: true
     theme: Berkeley
     colortheme: whale
+  word_document: default
+  ioslides_presentation: default
+  slidy_presentation: default
+  powerpoint_presentation: default
 institute:
 - Universidade Federal de Sergipe
 - "Programa de Pós-Graduação em Ciência da Computação"
@@ -29,7 +31,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 \section{Objetivo}
 
-Analisar os padrões de adoção e utilização de Large Language Models (LLMs) por pesquisadores no contexto da análise de dados abertos governamentais, caracterizando suas percepções sobre benefícios, limitações e implicações metodológicas.
+Analisar os padrões de adoção e utilização de Large Language Models (LLMs) por pesquisadores no contexto dos dados abertos governamentais, caracterizando suas percepções sobre benefícios, limitações e implicações metodológicas.
 
 ---
 

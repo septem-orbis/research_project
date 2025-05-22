@@ -1,0 +1,84 @@
+---
+title: "pesquisa_projeto"
+output:
+  pdf_document:
+    latex_engine: xelatex
+    # extra_dependencies: ["babel"]
+    toc: True
+    number_sections: True
+    includes:
+      in_header: preamb.tex
+  # html_document: default
+date: "2025-05-18"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+\include{fundamentacao}
+
+<!-- \section{Título} -->
+<!-- Claro, específico e alinhado com o objetivo da pesquisa -->
+
+<!-- \section{Resumo/Abstract} -->
+<!-- Síntese concisa contendo problema, objetivos, metodologia e contribuições esperadas -->
+
+<!-- \section{Introdução} -->
+<!-- Contextualização do tema, justificativa da pesquisa e relevância acadêmica e/ou social -->
+
+<!-- \section{Problema de pesquisa} -->
+<!-- Questão central que o estudo pretende responder, delimitada e específica -->
+
+<!-- \section{Objetivos} -->
+<!-- Geral e específicos, estabelecendo claramente o que se pretende alcançar -->
+<!-- \subsection{Geral} -->
+<!-- \subsection{Especificos} -->
+
+<!-- \section{Revisão da literatura/Fundamentação teórica} -->
+<!-- Principais teorias, conceitos e estudos anteriores relevantes para a pesquisa -->
+
+<!-- \section{Metodologia} -->
+<!-- Abordagem metodológica (qualitativa, quantitativa ou mista), métodos de coleta e análise de dados, população/amostra -->
+
+<!-- \section{Cronograma} -->
+<!-- Planejamento temporal das etapas da pesquisa, demonstrando viabilidade no prazo do mestrado -->
+
+<!-- \section{Resultados esperados} -->
+<!-- Potenciais descobertas e contribuições da pesquisa -->
+
+<!-- \section{Referências bibliográficas} -->
+<!-- Lista das fontes citadas, seguindo as normas da instituição (ABNT, APA, etc.) -->
+
+<!-- Dependendo da área e da instituição, pode ser necessário incluir também: -->
+
+<!-- \section{Considerações éticas} -->
+<!-- <!-- \section{Orçamento} (caso a pesquisa necessite de financiamento) --> -->
+<!-- \section{Apêndices} -->
+<!-- \section{Anexos} -->
+
+
+
+
+
+
+<!-- ## R Markdown -->
+
+<!-- This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>. -->
+
+<!-- When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this: -->
+
+<!-- ```{r cars} -->
+<!-- summary(cars) -->
+<!-- ``` -->
+
+<!-- ## Including Plots -->
+
+<!-- You can also embed plots, for example: -->
+
+<!-- ```{r pressure, echo=FALSE} -->
+<!-- plot(pressure) -->
+<!-- ``` -->
+
+<!-- Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot. -->
